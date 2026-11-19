@@ -1,8 +1,8 @@
 # Журнал проекта: Realistic Football Career Simulator
 
 ## Текущий этап
-**Этап 1: Архитектурное проектирование (только дизайн)** — Завершён (Части 1–4 из 4: Блоки A, B, C, D, E, F).
-Статус: **написано (полный архитектурный проект готов; ожидается подтверждение перехода к Этапу 2 — каркас Rust/WASM + CI)**.
+**Этап 2: Каркас репозитория, CI и WASM Handshake**
+Статус: **CI зелёный** (GitHub Actions run [#44574657565](https://github.com/ableuse3251/realistic-football-career-simulator/actions/runs/44574657565), коммит `6bc1ce5`; артефакт `sim-wasm-pkg` 15.7 КБ синхронизирован в локальный `src/wasm-pkg/`).
 
 ---
 
