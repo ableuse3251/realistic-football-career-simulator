@@ -1,0 +1,6 @@
+{
+  "name": "Realistic Football Career Simulator",
+  "description": "Deep data-oriented Rust/WASM football career simulator uniting Manager, Head Coach, and Pro Player modes in a living global football ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
