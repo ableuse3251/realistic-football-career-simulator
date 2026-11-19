@@ -1,0 +1,16 @@
+[package]
+name = "sim_wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+sim_core = { path = "../sim_core" }
+wasm-bindgen = "0.2"
+
+[lints]
+workspace = true

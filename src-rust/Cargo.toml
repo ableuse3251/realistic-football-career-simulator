@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "sim_core",
+    "sim_wasm",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Realistic Football Career Simulator Contributors"]
+
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3
